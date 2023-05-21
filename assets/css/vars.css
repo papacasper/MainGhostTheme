@@ -1,5 +1,18 @@
 /* Variables
 /* ---------------------------------------------------------- */
+[theme-mode=dark] {
+    --foreground: #f9f9fb;
+    --background: #1a1924;
+    --header-background: rgba(27,26,37,.5);
+    --gradient-card-background: rgba(26,25,36,0);
+    --light-background: #282b34;
+    --light-secondary-background: #121317;
+    --accent-color: #fa8500;
+    --border: #333642;
+    --light-text: #b9b9d5;
+    --display-light-logo: none;
+    --display-dark-logo: inline-block
+}
 
 :root {
 
@@ -12,6 +25,8 @@
     --color-error: #f05230;
 
     /* Fonts */
+    --font-base: 1rem;
+    --font-family: "Atkinson Hyperlegible",Helvetica,Arial,sans-serif;    
     --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-serif: Georgia, Times, serif;
     --font-mono: Menlo, Courier, monospace;
@@ -32,4 +47,47 @@
     --margin: 2rem;
     --radius: 0.5rem;
 
+
+    --border-radius-s: 0.625rem;
+    --border-radius-m: 0.9375rem;
+    --max-width-container: 72.5rem;
+    --max-width-post-container: 47.5rem;
+    --spacing-s: 1.25rem;
+    --spacing-m: 2.5rem;
+    --spacing-l: 3.75rem;
+    --show-loading-animation: 1;
+    --show-slide-up-animation: 1;
+    --hero-image-transparency: 0.6;
+    --hero-image-gradient-transparency: 0.4;
+    --backdrop-opacity: 0.8;
+    --backgrop-controls-opacity: 0.2;
+    --post-card-height: 38.75rem;
+    --hide-post-card-overlay: 1;
+    --hover-post-image-zoom: 1.1;
+    --post-feature-image-width: 100%;
+    --show-post-card-excerpt: none;
+    --foreground: #121212;
+    --background: #fff;
+    --header-background: hsla(0,0%,100%,.5);
+    --gradient-card-background: hsla(0,0%,100%,0);
+    --light-background: #e8e8e8;
+    --light-secondary-background: #fafafa;
+    --dark-background: #121212;
+    --color-on-dark: #fff;
+    --accent-color: #121212;
+    --border: #e8e8e8;
+    --border-on-dark: #292929;
+    --light-text: #5c5c5c;
+    --gradient-first-color: #fb00ff;
+    --gradient-second-color: #00dde0;
+    --focus: #90cef4;
+    --success: #2a9d90;
+    --error: #e63746;
+    --highlighted: #ff0;
+    --active-status: #42805d;
+    --trialing-status: #0565ff;
+    --issue-status: #c52039;
+    --canceled-status: #4e575f;
+    --display-light-logo: inline-block;
+    --display-dark-logo: none
 }

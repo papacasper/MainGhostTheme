@@ -1,0 +1,11 @@
+<header id="Site-Header" class="Site-Header">
+    <button>start</button>
+    <a href="{{@site.url}}">
+        {{#if @site.logo}}
+            <img src="{{@site.logo}}" alt="{{@site.title}}" />
+        {{else}}
+            {{@site.title}}
+        {{/if}}
+    </a>
+    <button>quit</button>
+</header>
